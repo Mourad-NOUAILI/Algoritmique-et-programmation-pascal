@@ -102,6 +102,7 @@ begin
 	crypter := mc;
 end;
 
+//Programme principal
 var
 	m: string;
 	p: integer;
