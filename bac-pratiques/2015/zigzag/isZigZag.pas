@@ -28,7 +28,7 @@ begin
 end;
 
 //Vérifier sur un nombre est zigzag ou pas.
-//Dans le pire des cas : O(nombre-de-chiffres-du-nombre)
+//Dans le pire des cas : O(|str(number)|)
 //Dans le meilleur des cas : O(1)
 function isZigzag(number : longword) : boolean;
 var i , len : byte;
