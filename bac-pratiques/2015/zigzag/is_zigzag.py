@@ -1,3 +1,5 @@
+# n is a string of digits
+# Time complexity: O(|n|)
 def is_zigzag(n):
     sign = int(n[0])-int(n[1])
     i = 1
@@ -6,6 +8,9 @@ def is_zigzag(n):
         sign = -sign
     return i == len(n)-1
 
+
+# n is a string of digits
+# Time complexity: O(|n|)
 def is_zigzag_python_like(n):
     sign = int(n[0])-int(n[1])
     l = []
