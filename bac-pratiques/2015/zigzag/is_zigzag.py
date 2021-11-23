@@ -1,5 +1,5 @@
-# n is a string of digits
-# Time complexity: O(|n|)
+# n is a integer number
+# Time complexity: O(|s|)
 def is_zigzag(n):
     s = str(n)
     i = 0
